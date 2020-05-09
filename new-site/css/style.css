@@ -1429,3 +1429,16 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
+
+.map {
+  padding: 50px 25px 50px 25px;
+  width: 100%;
+}
+
+#mapping {
+  margin-top: 80px;
+}
+
+.contactForm {
+  padding-bottom: 50px;
+}
