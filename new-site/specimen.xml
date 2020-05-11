@@ -9,75 +9,89 @@
           <URL>/project-plan.htm</URL> website
         </analisys>
       </access>
-      <lang>Italiano</lang>
-      <food>
-        <cucina-romana>
-          <antipasto>
-            <subject vocabolario="AP" xml:id="subj1">Trippa alla romana</subject>
-            <subject vocabolario="AP" xml:id="subj2">Ceci tartufati</subject>
-            <subject vocabolario="AP" xml:id="subj3">Scomposta di parmigiana</subject>
-          </antipasto>
-          <primo>
-            <subject vocabolario="PP" xml:id="subj4">Amatriciana</subject>
-            <subject vocabolario="PP" xml:id="subj5">Carbonara</subject>
-            <subject vocabolario="PP" xml:id="subj6">Cacio e pepe</subject>
-            <subject vocabolario="PP" xml:id="subj7">Vaccinara</subject>
-          </primo>
-          <secondo>
-            <subject vocabolario="SP" xml:id="subj8">Coda alla vaccinara</subject>
-            <subject vocabolario="SP" xml:id="subj9">Saltimbocca alla romana</subject>
-          </secondo>
-          <contorno>
-            <subject vocabolario="CP" xml:id="subj10">Verdure miste</subject>
-            <subject vocabolario="CP" xml:id="subj11">Patate</subject>
-          </contorno>
-          <bevande>
-            <subject vocabolario="BE" xml:id="subj12">Acqua</subject>
-            <subject vocabolario="BE" xml:id="subj13">Vino</subject>
-            <subject vocabolario="BE" xml:id="subj14">Caffè</subject>
-          </bevande>
-        </cucina-romana>
+    <lang>Italiano</lang>
+    <social>
+      <subject vocabolario="JE" xml:id="je">Just Eat
+        <URL>https://www.justeat.it/restaurants-trattoria-pinseria-ovosodo-frascati/</URL>
+      </subject>
+        <subject vocabolario="FB" xml:id="fb">Facebook
+          <URL>https://www.facebook.com/ovosodo2014/</URL>
+        </subject>
+        <subject vocabolario="IG" xml:id="fb">Instagram
+          <URL>https://www.instagram.com/trattoriapinseriaovosodo/</URL>
+        </subject>
+    </social>
+    <food>
+      <cucina-romana>
+        <antipasto>
+          <subject vocabolario="AP" xml:id="subj1">Trippa alla romana</subject>
+          <subject vocabolario="AP" xml:id="subj2">Ceci tartufati</subject>
+          <subject vocabolario="AP" xml:id="subj3">Scomposta di parmigiana</subject>
+        </antipasto>
+        <primo>
+          <subject vocabolario="PP" xml:id="subj4">Amatriciana</subject>
+          <subject vocabolario="PP" xml:id="subj5">Carbonara</subject>
+          <subject vocabolario="PP" xml:id="subj6">Cacio e pepe</subject>
+          <subject vocabolario="PP" xml:id="subj7">Vaccinara</subject>
+        </primo>
+        <secondo>
+          <subject vocabolario="SP" xml:id="subj8">Coda alla vaccinara</subject>
+          <subject vocabolario="SP" xml:id="subj9">Saltimbocca alla romana</subject>
+        </secondo>
+        <contorno>
+          <subject vocabolario="CP" xml:id="subj10">Verdure miste</subject>
+          <subject vocabolario="CP" xml:id="subj11">Patate</subject>
+        </contorno>
+        <bevande>
+          <subject vocabolario="BE" xml:id="subj12">Acqua</subject>
+          <subject vocabolario="BE" xml:id="subj13">Vino</subject>
+          <subject vocabolario="BE" xml:id="subj14">Caffè</subject>
+        </bevande>
+        <price>€19.50</price>
+      </cucina-romana>
 
-        <carne>
-          <antipasto>
-            <subject vocabolario="AP" xml:id="subj15">Tagliere di salumi e formaggi</subject>
-          </antipasto>
-          <primo>
-            <subject vocabolario="PP" xml:id="subj16">Burina</subject>
-            <subject vocabolario="PP" xml:id="subj17">Amatriciana</subject>
-            <subject vocabolario="PP" xml:id="subj18">Carbonara</subject>
-            <subject vocabolario="PP" xml:id="subj19">Cacio e pepe</subject>
-            <subject vocabolario="PP" xml:id="subj20">Vaccinara</subject>
-          </primo>
-          <bevande>
-            <subject vocabolario="BE" xml:id="subj21">Acqua</subject>
-            <subject vocabolario="BE" xml:id="subj22">Vino</subject>
-            <subject vocabolario="BE" xml:id="subj23">Caffè</subject>
-            <subject vocabolario="BE" xml:id="subj24">Liquore</subject>
-          </bevande>
-        </carne>
-        <pinsa-no-stop>
-          <antipasto>
-            <subject vocabolario="AP" xml:id="subj25">Fritto misto</subject>
-            <subject vocabolario="AP" xml:id="subj26">Bruscetta al pomodoro</subject>
-          </antipasto>
-        </pinsa-no-stop>
-      </food>
+      <carne>
+        <antipasto>
+          <subject vocabolario="AP" xml:id="subj15">Tagliere di salumi e formaggi</subject>
+        </antipasto>
+        <primo>
+          <subject vocabolario="PP" xml:id="subj16">Burina</subject>
+          <subject vocabolario="PP" xml:id="subj17">Amatriciana</subject>
+          <subject vocabolario="PP" xml:id="subj18">Carbonara</subject>
+          <subject vocabolario="PP" xml:id="subj19">Cacio e pepe</subject>
+          <subject vocabolario="PP" xml:id="subj20">Vaccinara</subject>
+        </primo>
+        <bevande>
+          <subject vocabolario="BE" xml:id="subj21">Acqua</subject>
+          <subject vocabolario="BE" xml:id="subj22">Vino</subject>
+          <subject vocabolario="BE" xml:id="subj23">Caffè</subject>
+          <subject vocabolario="BE" xml:id="subj24">Liquore</subject>
+        </bevande>
+        <price>€25,00</price>
+      </carne>
+      <pinsa-no-stop>
+        <antipasto>
+          <subject vocabolario="AP" xml:id="subj25">Fritto misto</subject>
+          <subject vocabolario="AP" xml:id="subj26">Bruscetta al pomodoro</subject>
+        </antipasto>
+        <price>€14.90</price>
+      </pinsa-no-stop>
+    </food>
 
-      <description>
-        Trattoria pinseria ovosodo cerca di offrire al cliente un servizio completo con molte tipologie di pinsa romana, cucina romana e pesce fresco.
-        I nostri impasti seguono tempi di lievitazione/maturazione non inferiori alle 72 ore che li contraddistingue per una assoluta digeribilità del prodotto.
-        Qui da noi la ricerca della materia prima è alla base di una piacevole serata in famiglia o amici. Serviamo in oltre gustosi panini da abbinare alle
-        nostre birre alla spina, una su tutte: Ichnusa non filtrata.
-        Vieni a provare alcune delle nostre specialità, ti aspettiamo!
-      </description>
-      <contacts>
-        <map>
-          Via antico Frascati, 5 - Frascati, RM 00044 - Italia
-        </map>
-        <phone>
-          +39 06 941 6131
-        </phone>
-      </contacts>
-    </oggetto>
-  </collezione>
+    <description>
+      Trattoria pinseria ovosodo cerca di offrire al cliente un servizio completo con molte tipologie di pinsa romana, cucina romana e pesce fresco.
+      I nostri impasti seguono tempi di lievitazione/maturazione non inferiori alle 72 ore che li contraddistingue per una assoluta digeribilità del prodotto.
+      Qui da noi la ricerca della materia prima è alla base di una piacevole serata in famiglia o amici. Serviamo in oltre gustosi panini da abbinare alle
+      nostre birre alla spina, una su tutte: Ichnusa non filtrata.
+      Vieni a provare alcune delle nostre specialità, ti aspettiamo!
+    </description>
+    <contacts>
+      <map>
+        Via antico Frascati, 5 - Frascati, RM 00044 - Italia
+      </map>
+      <phone>
+        +39 06 941 6131
+      </phone>
+    </contacts>
+  </oggetto>
+</collezione>
