@@ -1,0 +1,18 @@
+body {
+background-image: url("images/back.jpg");
+background-color: black;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+table {
+color: white;
+position: center;
+border-spacing: 3px;
+border-collapse: separate;
+width: 33%;
+}
+
+tr {
+background-color: black;
+}
