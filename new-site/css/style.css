@@ -472,6 +472,8 @@ h6 {
   text-align: center;
   font-weight: 500;
   position: relative;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .section-header p {
