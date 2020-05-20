@@ -1445,6 +1445,14 @@ h6 {
   padding-bottom: 50px;
 }
 
-.breadcrumb-custom {
+.breadcrumb-custom1 {
   margin-top: 110px;
+}
+
+.breadcrumb-custom2 {
+  margin-bottom: 20px;
+}
+
+.img-custom{
+padding-bottom: 40px
 }
